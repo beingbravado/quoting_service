@@ -1,0 +1,638 @@
+{
+    "company": {
+        "$oid": "61faa90e927189eade616377"
+    },
+    "settings": {
+        "products": [],
+        "tax_code": [],
+        "discount_options": [],
+        "payment_options": [
+            {
+                "key": "PAY_NOW_TEN_PERCENT_OFF",
+                "discount_value": 10,
+                "discount_name": "10% Off Initial Only",
+                "payment_option_text": "10% Off Initial Only",
+                "selected_default": false,
+                "is_fixed_price": false,
+                "fixed_price": 0
+            }
+        ],
+        "branches": [],
+        "service_types": []
+    },
+    "service_catalogue": [
+        {
+            "title": "Cadenhead's Stop Buggin' Basic",
+            "name": "Cadenhead's Stop Buggin' Basic",
+            "description": "Cadenhead Services Stop Buggin’ Basic is an affordable pest control plan that focuses on the exterior of the home since that is where most pests come from offering you year-round protection against common house infesting pests.  This plan includes an initial interior and exterior inspection and treatment.  Followed by 3 exterior treatments performed every four months for covered pests backed by our DontBugMe Guarantee with no charge service for covered pests between scheduled visits.",
+            "service_image_url": "",
+            "color_code": "#fff",
+            "is_active": true,
+            "service_type": "PROGRAM",
+            "isCompulsory": false,
+            "associated_branches": [],
+            "services_offered": [],
+            "price_calculation": {
+                "type": "SLABS",
+                "classifying_measurement": [
+                    {
+                        "measurement": "BUILDINGFOOTPRINT_PERIMETER",
+                        "multiplier": 1
+                    }
+                ],
+                "pricing_strategy": [
+                    {
+                        "slab_start": 0,
+                        "slab_end": 290,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 33
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 290,
+                        "slab_end": 390,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 38
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 390,
+                        "slab_end": 490,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 43
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 490,
+                        "slab_end": 590,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 48
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 590,
+                        "slab_end": 690,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 53
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 690,
+                        "slab_end": 790,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 58
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 790,
+                        "slab_end": 890,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 63
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 890,
+                        "slab_end": 990,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 68
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 990,
+                        "slab_end": 1090,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 73
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1090,
+                        "slab_end": 1190,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 78
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1190,
+                        "slab_end": 1290,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 83
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1290,
+                        "slab_end": 1390,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 88
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1390,
+                        "slab_end": 1490,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 93
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1490,
+                        "slab_end": 1590,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 98
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1590,
+                        "slab_end": 1690,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 103
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1690,
+                        "slab_end": 1750,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 108
+                            }
+                        ]
+                    }
+                ]
+            },
+            "associated_products": [],
+            "associated_tax_codes": [],
+            "serviceable_days": [],
+            "recurrence": {
+                "schedule": []
+            },
+            "schedule": [],
+            "services": []
+        },
+        {
+            "title": "Cadenhead's Stop Buggin' Plus",
+            "name": "Cadenhead's Stop Buggin' Plus",
+            "description": "Cadenhead Services Stop Buggin’ Plus is a comprehensive home pest control plan that targets common house-infesting pests PLUS termites. This service includes 4 scheduled services performed quarterly including Annual service to maintain the Sentricon System. Quarterly services are focused on the exterior of the home; however, your pest control technician will treat inside as needed. Plus, the Sentricon® Termite Colony Elimination System.",
+            "service_image_url": "",
+            "color_code": "#fff",
+            "is_active": true,
+            "service_type": "PROGRAM",
+            "isCompulsory": false,
+            "associated_branches": [],
+            "services_offered": [],
+            "price_calculation": {
+                "type": "SLABS",
+                "classifying_measurement": [
+                    {
+                        "measurement": "BUILDINGFOOTPRINT_PERIMETER",
+                        "multiplier": 1
+                    }
+                ],
+                "pricing_strategy": [
+                    {
+                        "slab_start": 0,
+                        "slab_end": 290,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 58
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 290,
+                        "slab_end": 390,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 63
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 390,
+                        "slab_end": 490,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 68
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 490,
+                        "slab_end": 590,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 73
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 590,
+                        "slab_end": 690,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 78
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 690,
+                        "slab_end": 790,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 83
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 790,
+                        "slab_end": 890,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 88
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 890,
+                        "slab_end": 990,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 93
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 990,
+                        "slab_end": 1090,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 98
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1090,
+                        "slab_end": 1190,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 103
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1190,
+                        "slab_end": 1290,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 108
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1290,
+                        "slab_end": 1390,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 113
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1390,
+                        "slab_end": 1490,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 118
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1490,
+                        "slab_end": 1590,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 123
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1590,
+                        "slab_end": 1690,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 128
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1690,
+                        "slab_end": 1750,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 133
+                            }
+                        ]
+                    }
+                ]
+            },
+            "associated_products": [],
+            "associated_tax_codes": [],
+            "serviceable_days": [],
+            "recurrence": {
+                "schedule": []
+            },
+            "schedule": [],
+            "services": []
+        },
+        {
+            "title": "Cadenhead's Stop Buggin' Preferred",
+            "name": "Cadenhead's Stop Buggin' Preferred",
+            "description": "Cadenhead Services Stop Buggin’ Preferred is our most comprehensive & complete home pest control plan that targets common house-infesting pests PLUS termites, mosquitoes, and fire ants.  This service includes 6 scheduled services performed every other month.  Services are focused on the exterior of the home; however, your pest control technician will treat inside as needed. Plus, the Sentricon® Termite Colony Elimination System, Mosquito Traps, and Fire Ant Control in defined areas.",
+            "service_image_url": "",
+            "color_code": "#fff",
+            "is_active": true,
+            "service_type": "PROGRAM",
+            "isCompulsory": false,
+            "associated_branches": [],
+            "services_offered": [],
+            "price_calculation": {
+                "type": "SLABS",
+                "classifying_measurement": [
+                    {
+                        "measurement": "BUILDINGFOOTPRINT_PERIMETER",
+                        "multiplier": 1
+                    }
+                ],
+                "pricing_strategy": [
+                    {
+                        "slab_start": 0,
+                        "slab_end": 290,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 79
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 290,
+                        "slab_end": 390,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 84
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 390,
+                        "slab_end": 490,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 89
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 490,
+                        "slab_end": 590,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 94
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 590,
+                        "slab_end": 690,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 99
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 690,
+                        "slab_end": 790,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 104
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 790,
+                        "slab_end": 890,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 109
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 890,
+                        "slab_end": 990,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 114
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 990,
+                        "slab_end": 1090,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 119
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1090,
+                        "slab_end": 1190,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 124
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1190,
+                        "slab_end": 1290,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 129
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1290,
+                        "slab_end": 1390,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 134
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1390,
+                        "slab_end": 1490,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 139
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1490,
+                        "slab_end": 1590,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 144
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1590,
+                        "slab_end": 1690,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 149
+                            }
+                        ]
+                    },
+                    {
+                        "slab_start": 1690,
+                        "slab_end": 1750,
+                        "pricing": [
+                            {
+                                "measurement": "ONE",
+                                "multiplier": 154
+                            }
+                        ]
+                    }
+                ]
+            },
+            "associated_products": [],
+            "associated_tax_codes": [],
+            "serviceable_days": [],
+            "recurrence": {
+                "schedule": []
+            },
+            "schedule": [],
+            "services": []
+        }
+    ],
+    "packages": [],
+    "questions": [
+        {
+            "compulsory": true,
+            "title": "Do you have a locked gate to the backyard?",
+            "type": "MULTIPLE_CHOICE_SINGLE_SELECT_QUESTION",
+            "associated_services": [],
+            "options": [
+                {
+                    "title": "Yes",
+                    "markup_services": [],
+                    "disbale_services": []
+                },
+                {
+                    "title": "No",
+                    "markup_services": [],
+                    "disbale_services": []
+                }
+            ]
+        },
+        {
+            "compulsory": true,
+            "title": "Do you have pets?",
+            "type": "MULTIPLE_CHOICE_SINGLE_SELECT_QUESTION",
+            "associated_services": [],
+            "options": [
+                {
+                    "title": "No",
+                    "markup_services": [],
+                    "disbale_services": []
+                },
+                {
+                    "title": "Yes",
+                    "markup_services": [],
+                    "disbale_services": []
+                }
+            ]
+        }
+    ],
+    "__v": 5
+}

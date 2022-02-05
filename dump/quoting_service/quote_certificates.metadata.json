@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"quoting_service.quote_certificates"},{"v":2,"unique":true,"key":{"signature_reference_id":1},"name":"signature_reference_id_1","ns":"quoting_service.quote_certificates","background":true}],"uuid":"89a3985f0e2e4ee0a2ce1f6a016cb9f4"}

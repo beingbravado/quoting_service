@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"quoting_service.companies"},{"v":2,"unique":true,"key":{"subDomain":1},"name":"subDomain_1","ns":"quoting_service.companies","background":true}],"uuid":"c59f6ce0c4f94d11870aadd025481a1d"}

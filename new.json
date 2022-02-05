@@ -1,0 +1,180 @@
+{
+    "_id": {
+        "$oid": "61fbc8fd64241fee944800bb"
+    },
+    "company": {
+        "$oid": "61fbc72e64241fee94473000"
+    },
+    "settings": {
+        "branches": [],
+        "products": [],
+        "tax_codes": [],
+        "service_types": [],
+        "payment_options": [],
+        "discount_options": [],
+        "is_proeprty_editibale_on_online_shop": false
+    },
+    "service_catalogue": [
+        {
+            "number_Of_visits": 3,
+            "schedule": [],
+            "services": [
+                {
+                    "price_calculation": {
+                        "type": "SLABS",
+                        "classifying_measurement": [
+                            {
+                                "measurement": "LOT_AREA",
+                                "multiplier": 1,
+                                "_id": {
+                                    "$oid": "61fbc8fd64241fee944800c0"
+                                }
+                            }
+                        ],
+                        "pricing_strategy": [
+                            {
+                                "slab_start": 0,
+                                "slab_end": 100000,
+                                "pricing": [
+                                    {
+                                        "measurement": "ONE",
+                                        "multiplier": 10,
+                                        "_id": {
+                                            "$oid": "61fbc8fd64241fee944800c2"
+                                        }
+                                    }
+                                ],
+                                "_id": {
+                                    "$oid": "61fbc8fd64241fee944800c1"
+                                }
+                            }
+                        ],
+                        "_id": {
+                            "$oid": "61fbc8fd64241fee944800be"
+                        }
+                    },
+                    "associated_branches": [],
+                    "associated_products": [],
+                    "associated_tax_codes": [],
+                    "title": "program 1 visit 1",
+                    "name": "program 1 visit 1",
+                    "color_code": "#fff",
+                    "is_active": true,
+                    "service_type": "SERVICEINPROGRAM",
+                    "isCompulsory": false,
+                    "_id": {
+                        "$oid": "61fbc8fd64241fee944800bd"
+                    }
+                },
+                {
+                    "is_pricing_global": false,
+                    "price_calculation": {
+                        "type": "SLABS",
+                        "classifying_measurement": [
+                            {
+                                "measurement": "LOT_AREA",
+                                "multiplier": 1,
+                                "_id": {
+                                    "$oid": "61fbca0364241fee9448d18e"
+                                }
+                            }
+                        ],
+                        "pricing_strategy": [
+                            {
+                                "slab_start": 0,
+                                "slab_end": 10000000,
+                                "pricing": [
+                                    {
+                                        "measurement": "ONE",
+                                        "multiplier": 20,
+                                        "_id": {
+                                            "$oid": "61fbca0364241fee9448d190"
+                                        }
+                                    }
+                                ],
+                                "_id": {
+                                    "$oid": "61fbca0364241fee9448d18f"
+                                }
+                            }
+                        ],
+                        "_id": {
+                            "$oid": "61fbca0364241fee9448d18d"
+                        }
+                    },
+                    "associated_branches": [],
+                    "associated_products": [],
+                    "associated_tax_codes": [],
+                    "title": "program 1 visit 2",
+                    "name": "program 1 visit 2",
+                    "color_code": "#fff",
+                    "is_active": true,
+                    "service_type": "SERVICEINPROGRAM",
+                    "isCompulsory": false,
+                    "_id": {
+                        "$oid": "61fbca0364241fee9448d18c"
+                    }
+                },
+                {
+                    "price_calculation": {
+                        "type": "SLABS",
+                        "classifying_measurement": [
+                            {
+                                "measurement": "LOT_AREA",
+                                "multiplier": 1,
+                                "_id": {
+                                    "$oid": "61fbca0364241fee9448d193"
+                                }
+                            }
+                        ],
+                        "pricing_strategy": [
+                            {
+                                "slab_start": 0,
+                                "slab_end": 100000000,
+                                "pricing": [
+                                    {
+                                        "measurement": "ONE",
+                                        "multiplier": 100,
+                                        "_id": {
+                                            "$oid": "61fbca0364241fee9448d195"
+                                        }
+                                    }
+                                ],
+                                "_id": {
+                                    "$oid": "61fbca0364241fee9448d194"
+                                }
+                            }
+                        ],
+                        "_id": {
+                            "$oid": "61fbca0364241fee9448d192"
+                        }
+                    },
+                    "associated_branches": [],
+                    "associated_products": [],
+                    "associated_tax_codes": [],
+                    "title": "program 1 visit 3",
+                    "name": "program 1 visit 3",
+                    "color_code": "#fff",
+                    "is_active": true,
+                    "service_type": "SERVICEINPROGRAM",
+                    "isCompulsory": false,
+                    "_id": {
+                        "$oid": "61fbca0364241fee9448d191"
+                    }
+                }
+            ],
+            "is_pricing_global": false,
+            "title": "program 1",
+            "name": "program 1",
+            "color_code": "#fff",
+            "is_active": false,
+            "service_type": "PROGRAM",
+            "isCompulsory": false,
+            "_id": {
+                "$oid": "61fbc8fd64241fee944800bc"
+            }
+        }
+    ],
+    "packages": [],
+    "questions": [],
+    "__v": 0
+}

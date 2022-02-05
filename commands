@@ -1,0 +1,5 @@
+mongorestore --db quoting_service /home/beingbravado/Downloads/quoting_service
+
+https://pin-point-pest.dev.shop.attentive.ai/api/v1/lead/61ea59872d7061d6d9e2a743/pdf
+
+git pull origin dev

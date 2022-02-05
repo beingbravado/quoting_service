@@ -1,0 +1,32 @@
+{
+    "_id": {
+        "$oid": "61faa90e927189eade616377"
+    },
+    "name": "Cadenhead Pest",
+    "subDomain": "cadenhead-pest",
+    "logoUrl": "",
+    "companyType": "",
+    "createdAt": {
+        "$date": "2021-10-22T11:21:54.721Z"
+    },
+    "updatedAt": {
+        "$date": "2022-01-04T10:39:28.651Z"
+    },
+    "settings": {
+        "property": {
+            "maximum_lot_boundary": 175000,
+            "editable_in_online_shop": false,
+            "measurement_types": [
+                {
+                    "type": "BUILDINGFOOTPRINT_PERIMETER",
+                    "editable": true,
+                    "addable": true
+                }
+            ],
+            "servicable_area": {}
+        },
+        "payment": {
+            "stripe_charges_to_customer": true
+        }
+    }
+}
